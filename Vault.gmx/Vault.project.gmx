@@ -5,9 +5,34 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\main_char</sprite>
+    <sprite>sprites\other_char</sprite>
+    <sprite>sprites\button</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\BlackBaground</background>
+    <background>background\MachineRoom</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\script0.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\pixelated</font>
+  </fonts>
+  <objects name="objects">
+    <object>objects\main_char_o</object>
+    <object>objects\chief</object>
+    <objects name="TextBoxes">
+      <objects name="Chief">
+        <object>objects\TextBoxChiefPhase1</object>
+      </objects>
+    </objects>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
